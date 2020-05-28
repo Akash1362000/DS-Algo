@@ -23,7 +23,7 @@ int main(){
 	cout<<"\nNegative number present\n";
 	
 	//copy_n(first array, size of array, second array)
-    // Using copy_n() to copy contents 
+    	// Using copy_n() to copy contents 
 	copy_n(arr, 6, arr1);
 	//Display the new array
 	for(i=0; i<6; i++){
@@ -37,6 +37,7 @@ int main(){
 	cout<<"\nNew array after assigning values: ";
 	for(i=0; i<6; i++)
 	cout<<arr2[i]<<" ";
-		
+	//Output: New array after assigning values: 20 21 22 23 24 25
+	
 	return 0;
 }
